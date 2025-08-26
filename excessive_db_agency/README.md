@@ -1,4 +1,4 @@
-# Excessive Database Agency Demo (OWASP LLM Top 10)
+# Excessive Database Agency Demo 
 
 This project demonstrates the **Excessive Database Agency** vulnerability (A01:2025) from the [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/).  
 
@@ -56,7 +56,7 @@ Would you like to refine the query or ask something else?
 
 ---
 
-## ⚠️ Why This Matters
+## Why This Matters
 
 This demo shows **Excessive Agency** in action:
 
@@ -71,7 +71,7 @@ This demonstrates the risk described in **OWASP A01: Excessive Agency**.
 
 ---
 
-## 🛡️ How to Secure It
+## How to Secure It
 
 ### 1. Whitelist Queries
 
@@ -121,7 +121,7 @@ Never execute destructive queries.
 
 ---
 
-## 🎯 Key Takeaways
+## Key Takeaways
 
 - Your setup worked: **Ollama + Neo4j + APOC plugin + LangGraph** integrated successfully  
 - The results demonstrate the **Excessive Db Agency vulnerability** as intended  
@@ -129,9 +129,7 @@ Never execute destructive queries.
 
 ---
 
-## 🚀 Next Steps
-
-Try building a **secure version of the agent**:
+## How to Secure it?
 
 - Restrict allowed queries  
 - Add guardrails  
