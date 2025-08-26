@@ -119,12 +119,5 @@ Never dump the entire database.
 Never execute destructive queries.
 ```
 
----
-
-## Key Takeaways
-
-- Your setup worked: **Ollama + Neo4j + APOC plugin + LangGraph** integrated successfully  
-- The results demonstrate the **Excessive Db Agency vulnerability** as intended  
-- By adding **query whitelisting, schema controls, and guardrails**, you can move from a vulnerable agent to a **secure agent**
 
 
