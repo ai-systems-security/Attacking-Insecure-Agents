@@ -9,7 +9,7 @@ It uses:
 
 ---
 
-## ✅ What Happened
+## What Happened
 
 When you run the notebook and give the LLM this instruction:
 
