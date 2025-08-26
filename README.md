@@ -61,7 +61,7 @@ Modern AI agents, especially multi-agent systems, can be **vulnerable to various
 
 ### Installation
 ```bash
-pip install langgraph, pip install langchain-ollama, pip install langchain, pip install langchain-community, pip install neo4j
+pip install langgraph langchain-ollama langchain langchain-community neo4j
 ```
 
 ---
