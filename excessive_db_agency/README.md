@@ -19,7 +19,7 @@ It uses:
 
 ### Installation
 ```bash
-pip install langgraph, pip install langchain-ollama, pip install langchain, pip install langchain-community, pip install neo4j
+pip install langgraph langchain-ollama langchain langchain-community neo4j
 ```
 
 ---
