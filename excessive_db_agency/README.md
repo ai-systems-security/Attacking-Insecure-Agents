@@ -73,11 +73,11 @@ This demonstrates the risk described in **OWASP A01: Excessive Agency**.
 
 ## Key Vulnerabilities
 
-- Prompt Injection: User can craft queries that the AI is forced to execute.
-- No Input Sanitization: neo4j_query executes any Cypher query.
-- Unlimited Database Access: Never reject queries instruction is unsafe.
-- Potential for Data Exfiltration / Destruction: Malicious users could read or delete all data.
-- Local LLM Risks: Ollama could be tricked into exposing sensitive local information.
+- **Prompt Injection**: User can craft queries that the AI is forced to execute.
+- **No Input Sanitization**: neo4j_query executes any Cypher query.
+- **Unlimited Database Access**: Never reject queries instruction is unsafe.
+- **Potential for Data Exfiltration / Destruction**: Malicious users could read or delete all data.
+- **Local LLM Risks**: Ollama could be tricked into exposing sensitive local information.
 
 ---
 
