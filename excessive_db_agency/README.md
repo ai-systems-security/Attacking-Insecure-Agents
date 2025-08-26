@@ -71,7 +71,7 @@ This demonstrates the risk described in **OWASP A01: Excessive Agency**.
 
 ---
 
-# Key Vulnerabilities
+## Key Vulnerabilities
 
 - Prompt Injection: User can craft queries that the AI is forced to execute.
 - No Input Sanitization: neo4j_query executes any Cypher query.
