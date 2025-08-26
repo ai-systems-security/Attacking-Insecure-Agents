@@ -9,6 +9,21 @@ It uses:
 
 ---
 
+## Getting Started
+
+### Requirements
+- Python 3.10+  
+- Neo4j Desktop or Server (with APOC plugin enabled)  
+- Ollama or local LLM setup  
+- LangGraph and LangChain packages  
+
+### Installation
+```bash
+pip install langgraph langchain langchain_ollama langchain_google_genai
+```
+
+---
+
 ## What Happened
 
 When you run the notebook and give the LLM this instruction:
