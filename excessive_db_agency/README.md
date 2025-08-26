@@ -127,11 +127,4 @@ Never execute destructive queries.
 - The results demonstrate the **Excessive Db Agency vulnerability** as intended  
 - By adding **query whitelisting, schema controls, and guardrails**, you can move from a vulnerable agent to a **secure agent**
 
----
-
-## How to Secure it?
-
-- Restrict allowed queries  
-- Add guardrails  
-- Compare “before vs after” behavior
 
