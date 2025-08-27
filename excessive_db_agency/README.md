@@ -48,6 +48,7 @@ MATCH (n) RETURN n
 ```
 
 The query responses look like:
+
 Case 1:
 ```text
 [Node[n.id = 1, n.labels = ['Person'], n.properties = {'name': 'John', 'age': 30}], 
