@@ -47,8 +47,14 @@ This is the Cypher query for:
 MATCH (n) RETURN n
 ```
 
-The query response looks like:
-
+The query responses look like:
+Case 1:
+```text
+[Node[n.id = 1, n.labels = ['Person'], n.properties = {'name': 'John', 'age': 30}], 
+ Node[n.id = 2, n.labels = ['Person'], n.properties = {'name': 'Jane', 'age': 25}], 
+ Node[n.id = 3, n.labels = ['Product'], n.properties = {'name': 'iPhone', 'price': 599.99}]]
+```
+Case 2:
 ```text
 Nodes:
   - Node[0] with labels: [node], properties: {}
