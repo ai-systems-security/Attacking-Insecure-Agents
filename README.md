@@ -91,8 +91,4 @@ Do **not deploy vulnerable agents in production**. Always enforce:
 - [Neo4j Graph Database](https://neo4j.com/)  
 - Agentic AI research papers and security advisories
 
----
-
-## License
-MIT License
 
