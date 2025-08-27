@@ -69,7 +69,7 @@ pip install langgraph langchain-ollama langchain langchain-community neo4j
 2. Configure your database and LLM (Neo4j + Ollama)
 
 3. Run the notebooks for each experiment:
-- `excessive_db_agency2.ipynb`
+- `excessive_db_agency1.ipynb` and `excessive_db_agency2.ipynb`
 
 4. Observe **vulnerable behavior** and compare with **mitigation techniques**.  
 
