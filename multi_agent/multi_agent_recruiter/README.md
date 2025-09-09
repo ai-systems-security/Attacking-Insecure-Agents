@@ -1,4 +1,4 @@
-# 🤖 AI Recruiter
+# 🤖 Multi Agentic Recruiter
 
 This project demonstrates a simple AI-powered résumé screening system built with **Ollama LLM**, **Chroma vector database**, and **PDF résumé parsing**.  
 
@@ -48,4 +48,5 @@ Coordinates the recruiter pipeline:
 
 ## ▶️ Usage
 `C:\...\attacking_insecure_agents\multi_agent\multi_agent_recruiter> python multi_agent_runner.py "We are seeking a Software Engineer with strong Python and Machine Learning skill.Experience with data pipelines and cloud deployment is a plus."`
+
 
