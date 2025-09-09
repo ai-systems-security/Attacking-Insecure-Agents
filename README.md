@@ -20,7 +20,7 @@ The **Agentic Recruiter** system (Semantic Search, Evaluation, and Decision Agen
 
 👉 These show how interconnected agents can be **coerced into bad decisions** through malicious prompts, poisoned inputs, or fragile parsing.
 
-### **Other Vulnerabilities**
+### Other Vulnerabilities
  - Includes attacks like prompt injection, policy bypassing, and unsafe tool execution.
  - Shows the implications of giving excessive permissions to AI agents without validation or monitoring.
 
