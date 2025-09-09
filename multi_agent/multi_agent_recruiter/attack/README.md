@@ -1,4 +1,4 @@
-# 🧨 Red Team Results: AI Recruiter Evaluation
+# 🧨 Red Team Results: Multi Agentic Recruiter Evaluation
 
 This document summarizes the results of adversarial tests (`test_redteam.py` venom edition) against the AI recruiter.
 
