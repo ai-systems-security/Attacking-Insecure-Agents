@@ -8,17 +8,21 @@ A collection of **security experiments and attacks targeting insecure AI agents 
 
 Modern AI agents, especially multi-agent systems, can be **vulnerable to various attacks** if not properly secured. This repository focuses on practical security experiments including:
 
-- **Excessive Database Agency**
-  - Shows how an AI agent with unrestricted database access can leak sensitive data.
-  - Example: LLMs issuing `MATCH (n) RETURN n` queries on Neo4j without constraints.
+### **Excessive Database Agency**
+- Shows how an AI agent with unrestricted database access can leak sensitive data.
+- Example: LLMs issuing `MATCH (n) RETURN n` queries on Neo4j without constraints.
 
-- **Multi-Agent Manipulation**
-  - Demonstrates how agents can be influenced or coerced through **malicious prompts** or interactions between agents.
-  - Highlights the risks of agent-to-agent communication in collaborative or competitive environments.
+### Multi-Agent Manipulation (Multi Agentic Recruiter)
+The **Agentic Recruiter** system (Semantic Search, Evaluation, and Decision Agents) demonstrates how multi-agent pipelines can be manipulated:
+- **Critical exploits**: Forced `10/10` scoring, hidden metadata instructions, duplicate résumé IDs, and regex breakage bypass evaluation.  
+- **Partial exploits**: Keyword-stuffed résumés (retrieval poisoning), oversized résumés (DoS), multiple/conflicting scores, and partial injection success.  
+- **Model-dependent exploits**: Unicode tricks, invisible text, and confidence-based fluff may succeed against less restrictive models.  
 
-- **Other Vulnerabilities**
-  - Includes attacks like prompt injection, policy bypassing, and unsafe tool execution.
-  - Shows the implications of giving excessive permissions to AI agents without validation or monitoring.
+👉 These show how interconnected agents can be **coerced into bad decisions** through malicious prompts, poisoned inputs, or fragile parsing.
+
+### **Other Vulnerabilities**
+ - Includes attacks like prompt injection, policy bypassing, and unsafe tool execution.
+ - Shows the implications of giving excessive permissions to AI agents without validation or monitoring.
 
 ---
 
