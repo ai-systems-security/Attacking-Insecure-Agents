@@ -5,9 +5,10 @@ This document summarizes the results of adversarial tests (`test_redteam.py` ven
 ---
 
 ## ▶️ Usage
-`cd C:\...\attacking_insecure_agents\multi_agent`
-`python -m multi_agent_recruiter.attack.test_redteam`
-
+```bash
+cd C:\...\attacking_insecure_agents\multi_agent
+python -m multi_agent_recruiter.attack.test_redteam
+```
 ---
 
 ## ✅ Summary Table
