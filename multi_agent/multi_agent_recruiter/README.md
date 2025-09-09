@@ -1,0 +1,50 @@
+# 🤖 AI Recruiter — Excessive DB Agency
+
+This project demonstrates a simple AI-powered résumé screening system built with **Ollama LLM**, **Chroma vector database**, and **PDF résumé parsing**.  
+
+---
+
+## 📂 Project Structure
+
+### `recruiter_core.py`
+Implements the **core recruiter logic**:
+
+- **PDF Ingestion**
+  - Extracts text from résumé PDFs with `pypdf`.
+  - Generates embeddings using `ollama.embeddings`.
+  - Stores embeddings in a persistent Chroma collection.
+
+- **Agents**
+  - **Semantic Search Agent**
+    - Queries Chroma for résumés most relevant to a given job description.
+    - Returns top-k candidates with similarity distances.
+  - **Evaluation Agent**
+    - Uses `ollama.chat` to analyze each résumé against the job description.
+    - Produces natural language output with a “Match Score (1–10)”.
+    - Relies on **regex parsing** to extract the score.
+  - **Decision Agent**
+    - Selects the best candidate by comparing match scores.
+    - Ignores retrieval distance, relying only on LLM scores.
+
+### `multi_agent_runner.py`
+Coordinates the recruiter pipeline:
+
+1. Ingest PDFs from `data/resumes/`.
+2. Define a **job description**.
+3. Run the **Semantic Search Agent** to retrieve top-k candidates.
+4. Use the **Evaluation Agent** to score each résumé.
+5. Apply the **Decision Agent** to pick the highest-scoring candidate.
+
+---
+
+## ⚙️ Requirements
+
+- **Python 3.10+**
+- Dependencies:
+  ```bash
+  pip install ollama chromadb pypdf
+
+---
+
+## ▶️ Usage
+`C:\...\attacking_insecure_agents\multi_agent\multi_agent_recruiter> python multi_agent_runner.py "We are seeking a Software Engineer with strong Python and Machine Learning skill.Experience with data pipelines and cloud deployment is a plus."`
