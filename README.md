@@ -8,7 +8,7 @@ A collection of **security experiments and attacks targeting insecure AI agents 
 
 Modern AI agents, especially multi-agent systems, can be **vulnerable to various attacks** if not properly secured. This repository focuses on practical security experiments including:
 
-### **Excessive Database Agency**
+### Excessive Database Agency
 - Shows how an AI agent with unrestricted database access can leak sensitive data.
 - Example: LLMs issuing `MATCH (n) RETURN n` queries on Neo4j without constraints.
 
