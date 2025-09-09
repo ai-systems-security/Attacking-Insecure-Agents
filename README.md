@@ -42,8 +42,12 @@ The **Agentic Recruiter** system (Semantic Search, Evaluation, and Decision Agen
 - Includes secure variants using whitelisting, guardrails, and schema restrictions.  
 
 ### 2. Multi-Agent Manipulation
-- Shows how one agent can influence others using prompt engineering or crafted instructions.  
-- Explores risks of unmonitored communication and collaboration between agents.  
+- **Forced Scoring** — résumés inject instructions to always return `10/10`.  
+- **Hidden Channels** — metadata or invisible text carry stealthy injections.  
+- **Parser Fragility** — regex can be tricked by multiple scores, odd formatting, or Unicode.  
+- **Retrieval Poisoning** — keyword-stuffed résumés always appear relevant.  
+- **Resource Abuse** — oversized résumés or duplicates cause DoS or ingestion errors.  
+- **Bias Exploitation** — overconfident/fluffed résumés may mislead larger LLMs.
 
 ### 3. Prompt Injection & Policy Bypass
 - Agents can be tricked into ignoring instructions or revealing sensitive information.  
