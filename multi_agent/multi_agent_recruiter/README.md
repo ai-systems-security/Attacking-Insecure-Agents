@@ -47,8 +47,15 @@ Coordinates the recruiter pipeline:
 ---
 
 ## ▶️ Usage
+- **How to Run it:**
 ```bash
 C:\...\attacking_insecure_agents\multi_agent\multi_agent_recruiter> python multi_agent_runner.py "We are seeking a Software Engineer with strong Python and Machine Learning skill.Experience with data pipelines and cloud deployment is a plus."
 ```
+- **How to Attack it:**
+```bash
+cd C:\...\attacking_insecure_agents\multi_agent
+python -m multi_agent_recruiter.attack.test_redteam
+```
+
 
 
