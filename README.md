@@ -14,8 +14,8 @@ Modern AI agents, especially multi-agent systems, can be **vulnerable to various
 
 ### Multi-Agent Manipulation (Multi Agentic Recruiter)
 The **Agentic Recruiter** system (Semantic Search, Evaluation, and Decision Agents) demonstrates how multi-agent pipelines can be manipulated:
-- **Critical exploits**: Forced `10/10` scoring, hidden metadata instructions, duplicate résumé IDs, and regex breakage bypass evaluation.  
-- **Partial exploits**: Keyword-stuffed résumés (retrieval poisoning), oversized résumés (DoS), multiple/conflicting scores, and partial injection success.  
+- **Critical exploits**: Forced `10/10` scoring, hidden metadata instructions, duplicate resume IDs, and regex breakage bypass evaluation.  
+- **Partial exploits**: Keyword-stuffed resumes (retrieval poisoning), oversized resumes (DoS), multiple/conflicting scores, and partial injection success.  
 - **Model-dependent exploits**: Unicode tricks, invisible text, and confidence-based fluff may succeed against less restrictive models.  
 
 👉 These show how interconnected agents can be **coerced into bad decisions** through malicious prompts, poisoned inputs, or fragile parsing.
@@ -42,12 +42,12 @@ The **Agentic Recruiter** system (Semantic Search, Evaluation, and Decision Agen
 - Includes secure variants using whitelisting, guardrails, and schema restrictions.  
 
 ### 2. Multi-Agent Manipulation
-- **Forced Scoring** — résumés inject instructions to always return `10/10`.  
+- **Forced Scoring** — resumes inject instructions to always return `10/10`.  
 - **Hidden Channels** — metadata or invisible text carry stealthy injections.  
 - **Parser Fragility** — regex can be tricked by multiple scores, odd formatting, or Unicode.  
-- **Retrieval Poisoning** — keyword-stuffed résumés always appear relevant.  
-- **Resource Abuse** — oversized résumés or duplicates cause DoS or ingestion errors.  
-- **Bias Exploitation** — overconfident/fluffed résumés may mislead larger LLMs.
+- **Retrieval Poisoning** — keyword-stuffed resumes always appear relevant.  
+- **Resource Abuse** — oversized resumes or duplicates cause DoS or ingestion errors.  
+- **Bias Exploitation** — overconfident/fluffed resumes may mislead larger LLMs.
 
 ### 3. Prompt Injection & Policy Bypass
 - Agents can be tricked into ignoring instructions or revealing sensitive information.  
