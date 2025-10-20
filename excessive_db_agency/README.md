@@ -89,7 +89,7 @@ This demo shows **Excessive Agency** in action:
   - Internal metadata  
   - Sensitive business data  
 
-This demonstrates the risk described in **OWASP A01: Excessive Agency**.
+This demonstrates the risk described in **OWASP LLM08: Excessive Agency**.
 
 ---
 
