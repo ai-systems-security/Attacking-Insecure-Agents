@@ -1,6 +1,6 @@
 # Excessive Database Agency Demo 
 
-This project demonstrates the **Excessive Database Agency** vulnerability (A01:2025) from the [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/).  
+This project demonstrates the **Excessive Database Agency** vulnerability (LLM08:2025) from the [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/).  
 
 It uses:
 - **LangGraph** (agent framework)
