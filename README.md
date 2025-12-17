@@ -94,6 +94,7 @@ Do **not deploy vulnerable agents in production**. Always enforce:
 ---
 
 ## References
+- [OWASP Top 10 for Agentic Applications](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/)
 - [OWASP Top 10 for LLM Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)  
 - [LangGraph Documentation](https://github.com/Arcanum-Sec/langgraph)  
 - [Neo4j Graph Database](https://neo4j.com/)  
